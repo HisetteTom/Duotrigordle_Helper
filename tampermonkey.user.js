@@ -3,17 +3,17 @@
 // @namespace    http://tampermonkey.net/
 // @version      2.0
 // @description  Uses official Wordle word list with improved letter matching logic
-// @author       Your name
+// @author       HisetteTom
 // @match        https://duotrigordle.com/*
 // @grant        GM_xmlhttpRequest
 // @run-at       document-end
-// @require      https://raw.githubusercontent.com/YOUR_USERNAME/32WordleShit/main/src/utils/wordList.js
-// @require      https://raw.githubusercontent.com/YOUR_USERNAME/32WordleShit/main/src/utils/boardParser.js
-// @require      https://raw.githubusercontent.com/YOUR_USERNAME/32WordleShit/main/src/utils/wordMatcher.js
-// @require      https://raw.githubusercontent.com/YOUR_USERNAME/32WordleShit/main/src/utils/observer.js
-// @require      https://raw.githubusercontent.com/YOUR_USERNAME/32WordleShit/main/src/components/ui.js
-// @require      https://raw.githubusercontent.com/YOUR_USERNAME/32WordleShit/main/src/components/boardDisplay.js
-// @require      https://raw.githubusercontent.com/YOUR_USERNAME/32WordleShit/main/src/main.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/utils/wordList.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/utils/boardParser.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/utils/wordMatcher.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/utils/observer.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/components/ui.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/components/boardDisplay.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/main.js
 // ==/UserScript==
 
 (function() {
