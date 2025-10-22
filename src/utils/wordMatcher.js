@@ -54,4 +54,4 @@ function wordMatchesWithCounts(word, parsed) {
   return true;
 }
 
-export { wordMatchesWithCounts };
+window.wordMatchesWithCounts = wordMatchesWithCounts;

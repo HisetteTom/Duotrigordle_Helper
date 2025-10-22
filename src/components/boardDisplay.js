@@ -34,4 +34,4 @@ function displayBoard(entry) {
   statsEl.textContent = `${matches.length} possible word${matches.length !== 1 ? 's' : ''}`;
 }
 
-export { displayBoard };
+window.displayBoard = displayBoard;

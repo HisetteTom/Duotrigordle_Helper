@@ -19,4 +19,5 @@ function getWordList() {
   return wordleWords;
 }
 
-export { initializeWordList, getWordList };
+window.getWordList = getWordList;
+window.initializeWordList = initializeWordList;

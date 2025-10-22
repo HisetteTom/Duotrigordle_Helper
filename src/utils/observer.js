@@ -46,4 +46,4 @@ class BoardObserver {
   }
 }
 
-export { BoardObserver };
+window.BoardObserver = BoardObserver;

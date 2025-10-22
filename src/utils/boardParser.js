@@ -139,4 +139,6 @@ function rankBoards() {
   return list;
 }
 
-export { getBoards, parseBoard, rankBoards };
+window.getBoards = getBoards
+window.parseBoard = parseBoard;
+window.rankBoards = rankBoards;

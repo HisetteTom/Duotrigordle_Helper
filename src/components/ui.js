@@ -78,4 +78,6 @@ function injectStyles() {
   document.head.appendChild(style);
 }
 
-export { createHelperPanel, createToggleButton, injectStyles };
+window.createHelperPanel = createHelperPanel;
+window.createToggleButton = createToggleButton;
+window.injectStyles = injectStyles;
