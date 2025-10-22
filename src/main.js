@@ -1,10 +1,3 @@
-// Main application class
-import { initializeWordList, getWordList } from './utils/wordList.js';
-import { rankBoards } from './utils/boardParser.js';
-import { wordMatchesWithCounts } from './utils/wordMatcher.js';
-import { createHelperPanel, createToggleButton, injectStyles } from './components/ui.js';
-import { displayBoard } from './components/boardDisplay.js';
-import { BoardObserver } from './utils/observer.js';
 
 class DuotrigordleHelper {
   constructor() {
@@ -168,3 +161,4 @@ class DuotrigordleHelper {
 const FALLBACK_DELAY_MS = 5000;
 const helper = new DuotrigordleHelper();
 helper.init();
+window.DuotrigordleHelper = DuotrigordleHelper;
