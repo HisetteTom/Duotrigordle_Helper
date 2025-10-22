@@ -7,13 +7,13 @@
 // @match        https://duotrigordle.com/*
 // @grant        GM_xmlhttpRequest
 // @run-at       document-end
-// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/utils/wordList.js
-// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/utils/boardParser.js
-// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/utils/wordMatcher.js
-// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/utils/observer.js
-// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/components/ui.js
-// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/components/boardDisplay.js
-// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/refs/heads/main/src/main.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/main/src/utils/wordList.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/main/src/utils/boardParser.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/main/src/utils/wordMatcher.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/main/src/utils/observer.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/main/src/components/ui.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/main/src/components/boardDisplay.js
+// @require      https://raw.githubusercontent.com/HisetteTom/Duotrigordle_Helper/main/src/main.js
 // ==/UserScript==
 
 (function() {
