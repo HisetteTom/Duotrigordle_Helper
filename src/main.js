@@ -21,7 +21,7 @@ class DuotrigordleHelper {
     this.initializeUI();
     
     // Initialize word list and start observing
-    initializeWordList();
+    window.initializeWordList();
     this.setupBoardObserver();
     
     // Start polling for initial state
@@ -29,7 +29,7 @@ class DuotrigordleHelper {
   }
 
   initializeUI() {
-    injectStyles();
+    window.injectStyles();
     this.panel = createHelperPanel();
     this.toggleBtn = createToggleButton();
     
@@ -110,7 +110,7 @@ class DuotrigordleHelper {
   async updateSuggestions() {
     if (this.paused || this.runningAttempt || !this.panelVisible) return;
     
-    const ranked = rankBoards();
+    const ranked = window.rankBoards();
     if (!ranked || ranked.length === 0) {
       document.getElementById('duo-helper-list').innerHTML = '<div style="color:#444">No boards with clues yet or all boards solved.</div>';
       document.getElementById('duo-helper-stats').textContent = '';
@@ -134,9 +134,9 @@ class DuotrigordleHelper {
         return;
       }
 
-      const matches = getWordList().filter(word => wordMatchesWithCounts(word, board.parsed));
+      const matches = window.getWordList().filter(word => window.wordMatchesWithCounts(word, board.parsed));
       if (matches.length > 0) {
-        displayBoard({ ...board, matches });
+        window.displayBoard({ ...board, matches });
         return;
       }
     }

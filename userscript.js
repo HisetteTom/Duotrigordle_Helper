@@ -38,13 +38,13 @@
     // Module verification
     const verifyModules = () => {
         const requiredModules = [
-            { name: 'wordList', obj: typeof wordList !== 'undefined' },
-            { name: 'boardParser', obj: typeof boardParser !== 'undefined' },
-            { name: 'wordMatcher', obj: typeof wordMatcher !== 'undefined' },
-            { name: 'observer', obj: typeof observer !== 'undefined' },
-            { name: 'ui', obj: typeof ui !== 'undefined' },
-            { name: 'boardDisplay', obj: typeof boardDisplay !== 'undefined' },
-            { name: 'DuotrigordleHelper', obj: typeof DuotrigordleHelper !== 'undefined' }
+            { name: 'wordList', obj: window.getWordList && window.initializeWordList },
+        { name: 'boardParser', obj: window.getBoards && window.parseBoard && window.rankBoards },
+        { name: 'wordMatcher', obj: window.wordMatchesWithCounts },
+        { name: 'BoardObserver', obj: window.BoardObserver },
+        { name: 'ui', obj: window.createHelperPanel && window.createToggleButton && window.injectStyles },
+        { name: 'boardDisplay', obj: window.displayBoard },
+        { name: 'DuotrigordleHelper', obj: window.DuotrigordleHelper }
         ];
 
         let allLoaded = true;
